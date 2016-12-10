@@ -2,8 +2,7 @@
 <html>
 <!-- Mirrored from webapplayers.com/inspinia_admin-v2.2/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 12 Jul 2015 09:52:52 GMT -->
 <head>
-    <meta charset="utf8_unicode_ci">
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Domitory Management | Dashboard</title>
 
@@ -109,7 +108,7 @@
                             </thead>
                             <tbody>
                             <?php 
-                                include('ketnoi1.php');
+                                include('ketnoi.php');
                                 $sql = "Select ID,name,tuoi,noisinh from demo";
                                  mysql_select_db('demo');
                                  $retval = mysql_query( $sql);

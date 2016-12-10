@@ -21,6 +21,11 @@
          {
             echo "Giá trị phần tử mảng là $value <br />";
          }
+         $my_array = array("mango","apple","banana");
+   
+         list($a, $b, $c) = $my_array;
+         list($d) = $my_array.addslashes("hhh");
+         echo "Tôi có một vài loại quả: một $a, một $b, và một $c and $d.";
       ?>
       
    </body>

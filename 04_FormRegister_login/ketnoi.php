@@ -1,7 +1,7 @@
 <?php 
 	$ketnoi['host'] = 'localhost'; //Tên server, nếu dùng hosting free thì cần thay đổi
     $ketnoi['dbname'] = 'test'; //Đây là tên của Database
-    $ketnoi['username'] = ''; //Tên sử dụng Database
+    $ketnoi['username'] = 'root'; //Tên sử dụng Database
     $ketnoi['password'] = '';//Mật khẩu của tên sử dụng Database
     @mysql_connect(
         "{$ketnoi['host']}",

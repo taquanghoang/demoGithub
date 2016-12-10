@@ -1,7 +1,9 @@
 <?php session_start(); 
  
 if (isset($_SESSION['email'])){
-    unset($_SESSION['email']); // xóa session login
+    unset($_SESSION['email']); 
+    $URL = "index.php";
+    	header ("Location: $URL");
+    // xóa session login
 }
 ?>
-<a href="index.php">HOME</a>

@@ -14,7 +14,7 @@
        else{
 
           //  <a href="login.php">Login</a>
-           echo 'Bạn chưa đăng nhập. <a href="login.php">Login</a>';
+           echo 'Bạn chưa đăng nhập. <a href="login.html">Login</a>';
        }
        ?>
        <a href="DBtablePHP.php">Database Table</a>

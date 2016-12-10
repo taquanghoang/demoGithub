@@ -32,7 +32,7 @@
         );
     "); 
      if ($addmember){
-     	$URL = "login.php";
+     	$URL = "login.html";
     	header ("Location: $URL");
      }
     else{
